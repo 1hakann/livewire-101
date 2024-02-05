@@ -25,4 +25,5 @@
     @foreach ($users as $user)
         <p>{{ $user->name }}</p>
     @endforeach
+    {{ $users->links('vendor.livewire.test') }}
 </div>
